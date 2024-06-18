@@ -8,11 +8,11 @@ The following link elaborates on the individual steps: https://web.dev/articles/
 #### Content of the project:
 The project contains exactly 5 files:
 
-    I. Instruction.pdf - step by step instruction how to connect data from GA4 to Big Query Database
-    II. Dashboard.pdf - contains quick how Core Web Vitals looks like
-    III. CWV_CLS.sql - CLS Indicator aggregation query, to create CLS data table.
-    IV. CWV_INP.sql - INP Indicator aggregation query, to create INP data table.
-    IV. CWV_LCP.sql - LCP Indicator aggregation query, to create LCP data table.
+    Instruction.pdf - step by step instruction how to connect data from GA4 to Big Query Database
+    Dashboard.pdf - contains quick how Core Web Vitals looks like
+    CWV_CLS.sql - CLS Indicator aggregation query, to create CLS data table.
+    CWV_INP.sql - INP Indicator aggregation query, to create INP data table.
+    CWV_LCP.sql - LCP Indicator aggregation query, to create LCP data table.
 
 ### Built with: 
 Poniżej zostały wyodrębnione technologie zastosowane w przygotowaniu narzędzia Core Web Vitals dashboard.
