@@ -1,8 +1,29 @@
 ### About project:
+This dashboard enables the analysis of web page performance in terms of key performance metrics, identification of areas needing improvement, 
+and monitoring of visual stability and response speed of web pages.
+The dashboard was designed using the native Google Analytics 4 connector and Google Cloud Platform Big Query database. 
+In order to implement the collection of information on the metrics used in the project, the necessary changes to the site's data layer must be implemented.
+The following link elaborates on the individual steps: https://web.dev/articles/vitals?hl=pl
 
+#### Content of the project:
+The project contains exactly 5 files:
 
+    I. Instruction.pdf - step by step instruction how to connect data from GA4 to Big Query Database
+    II. Dashboard.pdf - contains quick how Core Web Vitals looks like
+    III. CWV_CLS.sql - CLS Indicator aggregation query, to create CLS data table.
+    IV. CWV_INP.sql - INP Indicator aggregation query, to create INP data table.
+    IV. CWV_LCP.sql - LCP Indicator aggregation query, to create LCP data table.
+
+### Built with: 
+Poniżej zostały wyodrębnione technologie zastosowane w przygotowaniu narzędzia Core Web Vitals dashboard.
+
+    - Google Analytics 4
+    - Big Query (SQL)
+    - Looker Studio
+
+            
 ### Dashboard Description
-This dashboard enables the analysis of web page performance in terms of key performance metrics, identification of areas needing improvement, and monitoring of visual stability and response speed of web pages.
+
 #### Page 1: Overview
 The first page of the dashboard provides a general overview of key performance metrics for web pages, known as Core Web Vitals. These metrics include:
 
